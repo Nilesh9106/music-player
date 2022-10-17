@@ -230,7 +230,7 @@ const ele = (data, id) => {
 }
 
 let list = document.getElementById('list');
-let data = "<h1>Music</h1>";
+let data = "<a href='https://nileshdarji.netlify.app/'><h1>Music</h1></a>";
 for (let i = 0; i < track_list.length; i++) {
     data += ele(track_list[i], i);
 }
